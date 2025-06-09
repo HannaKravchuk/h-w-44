@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:rgb(220, 217, 217);
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #fff;
+  min-height: 100vh;
+  box-shadow: 0 2px 8px rgba(157, 92, 92, 0.1);
+}
+
+.header {
+  background-color:rgb(208, 65, 189);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.user-input {
+  margin-bottom: 30px;
+}
+
+.user-input input {
+  padding: 16px;
+  width: 70%;
+  margin-right: 30px;
+  background-color:rgb(227, 238, 240);
+  border: 2px solid #ddd;
+}
+
+.user-card {
+  border: 3px solid #ddd;
+  background-color:rgb(240, 143, 191);
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 4px;
+}
